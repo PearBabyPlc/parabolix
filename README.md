@@ -18,6 +18,7 @@ I misspelled "parabolic" whilst trying to do something in desmos - here's a bad 
 - Definitely at some point fix the geometry plotter so it isn't using a bunch of halfassed guesstimations for formulae
 
 ## Example output
+### Geometry
 ![Example output](https://github.com/PearBabyPlc/parabolix/blob/main/parabolix.png)
 
 ```
@@ -46,4 +47,21 @@ designParams = {
     "Lstar": 0.95,
     "conicA": 18
 }
+```
+
+### CEARUN parser
+Using [cearun.txt] as the input, [parsedVerbose.txt] was generated. This is the summarised version (using the `parser.Positions.summary()` method):
+```
+INJECTOR: A/At = 0.0, T = 3447.03K, P = 50.0bar, V = 0.0m/s
+COMB END: A/At = 2.737, T = 3433.9K, P = 47.296bar, V = 361.2m/s
+THROAT: A/At = 1.0, T = 3250.61K, P = 28.019bar, V = 1563.2m/s
+EXIT: A/At = 9.0, T = 1996.38K, P = 0.75338bar, V = 3830.4m/s
+EXIT: A/At = 20.0, T = 1644.42K, P = 0.2582bar, V = 4140.4m/s
+EXIT: A/At = 36.0, T = 1413.97K, P = 0.11823bar, V = 4319.3m/s
+EXIT: A/At = 64.0, T = 1211.12K, P = 0.05512bar, V = 4463.9m/s
+EXIT: A/At = 100.0, T = 1068.27K, P = 0.03047bar, V = 4558.8m/s
+EXIT: A/At = 120.0, T = 1013.43K, P = 0.0239bar, V = 4593.8m/s
+EXIT: A/At = 144.0, T = 960.63K, P = 0.01875bar, V = 4626.8m/s
+EXIT: A/At = 175.0, T = 906.36K, P = 0.01445bar, V = 4660.0m/s
+EXIT: A/At = 209.22, T = 858.65K, P = 0.01138bar, V = 4688.6m/s
 ```
