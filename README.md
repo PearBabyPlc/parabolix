@@ -12,7 +12,8 @@ I misspelled "parabolic" whilst trying to do something in desmos - here's a bad 
 - Definitely at some point fix the geometry plotter so it isn't using a bunch of halfassed guesstimations for formulae
 
 ## Example output
-[Example output](https://github.com/PearBabyPlc/parabolix/blob/main/parabolix.png)
+![Example output](https://github.com/PearBabyPlc/parabolix/blob/main/parabolix.png)
+
 This was generated with the following input:
 ```
 designParams = {
