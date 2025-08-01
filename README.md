@@ -9,7 +9,7 @@ I misspelled "parabolic" whilst trying to do something in desmos - here's a bad 
 ## Development
 ### Done:
 - terrible geometry plotter thingy, I don't know if I defined a single actual parabola there (lots of arcs and tan functions)
-- CEARUN output file parser; only accepts single mixtures/pressures since, will have to update at some point
+- CEARUN output file parser: single chamber pressure/mixture, requires transport properties + consider ionised species + equilibrium + finite area (contraction ratio)
 
 ### Todo:
 - Bartz correlation h_g/heat flux plot, maybe integrate everything and get total heating in watts for each component (chamber, throat, nozzle sections)
