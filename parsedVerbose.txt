@@ -1,0 +1,155 @@
+Position: INJECTOR
+Pressure (bar): 50.0
+Temperature (Kelvin): 3447.03
+Cp (kJ/kg-K): 9.2239
+gamma: 1.1425
+Speed of sound (m/s): 1617.9
+Mach number: 0.0
+Viscosity (millipoise): 1.0363
+Prandtl number: 0.5071
+Area / throatArea: 0.0
+C* (m/s): 0.0
+Isp/exhaust velocity (m/s): 0.0
+
+Position: COMB END
+Pressure (bar): 47.296
+Temperature (Kelvin): 3433.9
+Cp (kJ/kg-K): 9.2247
+gamma: 1.1423
+Speed of sound (m/s): 1614.5
+Mach number: 0.224
+Viscosity (millipoise): 1.0334
+Prandtl number: 0.5065
+Area / throatArea: 2.737
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 361.2
+
+Position: THROAT
+Pressure (bar): 28.019
+Temperature (Kelvin): 3250.61
+Cp (kJ/kg-K): 8.4033
+gamma: 1.1431
+Speed of sound (m/s): 1563.2
+Mach number: 1.0
+Viscosity (millipoise): 0.9923
+Prandtl number: 0.5062
+Area / throatArea: 1.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 1563.2
+
+Position: EXIT
+Pressure (bar): 0.75338
+Temperature (Kelvin): 1996.38
+Cp (kJ/kg-K): 3.7082
+gamma: 1.2107
+Speed of sound (m/s): 1238.8
+Mach number: 3.092
+Viscosity (millipoise): 0.68415
+Prandtl number: 0.6578
+Area / throatArea: 9.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 3830.4
+
+Position: EXIT
+Pressure (bar): 0.2582
+Temperature (Kelvin): 1644.42
+Cp (kJ/kg-K): 3.3699
+gamma: 1.2325
+Speed of sound (m/s): 1134.1
+Mach number: 3.651
+Viscosity (millipoise): 0.58486
+Prandtl number: 0.6885
+Area / throatArea: 20.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4140.4
+
+Position: EXIT
+Pressure (bar): 0.11823
+Temperature (Kelvin): 1413.97
+Cp (kJ/kg-K): 3.2035
+gamma: 1.2471
+Speed of sound (m/s): 1057.8
+Mach number: 4.083
+Viscosity (millipoise): 0.51509
+Prandtl number: 0.6847
+Area / throatArea: 36.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4319.3
+
+Position: EXIT
+Pressure (bar): 0.05512
+Temperature (Kelvin): 1211.12
+Cp (kJ/kg-K): 3.0533
+gamma: 1.2623
+Speed of sound (m/s): 984.9
+Mach number: 4.532
+Viscosity (millipoise): 0.44986
+Prandtl number: 0.6722
+Area / throatArea: 64.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4463.9
+
+Position: EXIT
+Pressure (bar): 0.03047
+Temperature (Kelvin): 1068.27
+Cp (kJ/kg-K): 2.9434
+gamma: 1.2748
+Speed of sound (m/s): 929.6
+Mach number: 4.904
+Viscosity (millipoise): 0.40143
+Prandtl number: 0.6587
+Area / throatArea: 100.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4558.8
+
+Position: EXIT
+Pressure (bar): 0.0239
+Temperature (Kelvin): 1013.43
+Cp (kJ/kg-K): 2.9016
+gamma: 1.2799
+Speed of sound (m/s): 907.2
+Mach number: 5.064
+Viscosity (millipoise): 0.38221
+Prandtl number: 0.6523
+Area / throatArea: 120.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4593.8
+
+Position: EXIT
+Pressure (bar): 0.01875
+Temperature (Kelvin): 960.63
+Cp (kJ/kg-K): 2.8611
+gamma: 1.285
+Speed of sound (m/s): 885.0
+Mach number: 5.228
+Viscosity (millipoise): 0.36334
+Prandtl number: 0.6452
+Area / throatArea: 144.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4626.8
+
+Position: EXIT
+Pressure (bar): 0.01445
+Temperature (Kelvin): 906.36
+Cp (kJ/kg-K): 2.82
+gamma: 1.2903
+Speed of sound (m/s): 861.5
+Mach number: 5.409
+Viscosity (millipoise): 0.34358
+Prandtl number: 0.6374
+Area / throatArea: 175.0
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4660.0
+
+Position: EXIT
+Pressure (bar): 0.01138
+Temperature (Kelvin): 858.65
+Cp (kJ/kg-K): 2.7847
+gamma: 1.2951
+Speed of sound (m/s): 840.0
+Mach number: 5.582
+Viscosity (millipoise): 0.32589
+Prandtl number: 0.6299
+Area / throatArea: 209.22
+C* (m/s): 2375.1
+Isp/exhaust velocity (m/s): 4688.6
