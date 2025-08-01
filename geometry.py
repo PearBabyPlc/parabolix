@@ -126,6 +126,7 @@ def getGeometry(designParams):
         "Ltotal": Ltotal
     }
 
+    #print parameters
     print("Chamber/throat/nozzle parameters: actual (design)")
     print("Throat radius:", Rt)
     print("Chamber radius:", RcActual)
