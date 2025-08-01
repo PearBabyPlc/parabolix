@@ -202,7 +202,7 @@ def parseCEARUN():
     for block in trimmedBlocks:
         preparedBlock = parseBlock(block)
         array = np.asarray(preparedBlock)
-        array.transpose()
+        #array.transpose() no idea how the fuck I got away with transposing twice
         arrays.append(array)
     
     arraysT = []
