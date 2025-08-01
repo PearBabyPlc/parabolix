@@ -1,6 +1,12 @@
 # parabolix
-I misspelled "parabolic" whilst trying to do something in desmos - here's a bad model of a rocket nozzle/combustor
+I misspelled "parabolic" whilst trying to do something in desmos - here's a bad model of a rocket nozzle/combustor.
 
+### Dependencies:
+- numpy
+- matplotlib.pyplot
+- scipy.integrate
+
+## Development
 ### Done:
 - terrible geometry plotter thingy, I don't know if I defined a single actual parabola there (lots of arcs and tan functions)
 
