@@ -16,8 +16,17 @@ designParams = {
     "conicA": 18
 }
 
+egg.printSpacer()
 geometry, actualParams = geom.getGeometry(designParams)
 geomX, geomY, mirrX, mirrY = geometry
+
+egg.printSpacer()
+print("Parsed CEARUN data:")
+positions = parser.parseCEARUN() #file MUST be named "cearun.txt"
+for posEntry in positions:
+    print(posEntry.summary())
+
+egg.printSpacer()
 
 fig, ax = plt.subplots()
 ax.plot(geomX, geomY)
