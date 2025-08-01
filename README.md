@@ -50,7 +50,7 @@ designParams = {
 ```
 
 ### CEARUN parser
-Using [cearun.txt] as the input, [parsedVerbose.txt] was generated. This is the summarised version (using the `parser.Positions.summary()` method):
+Using [cearun.txt](https://github.com/PearBabyPlc/parabolix/blob/main/cearun.txt) as the input, [parsedVerbose.txt](https://github.com/PearBabyPlc/parabolix/blob/main/parsedVerbose.txt) was generated (by iterating and printing each object in the list returned by `parser.parseCEARUN()`). This is the summarised version (using the `parser.Positions.summary()` method):
 ```
 INJECTOR: A/At = 0.0, T = 3447.03K, P = 50.0bar, V = 0.0m/s
 COMB END: A/At = 2.737, T = 3433.9K, P = 47.296bar, V = 361.2m/s
