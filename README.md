@@ -26,21 +26,21 @@ I misspelled "parabolic" whilst trying to do something in desmos - here's a bad 
 Chamber/throat/nozzle parameters: actual (design)
 Throat radius: 0.1
 Chamber radius: 0.1654422907003848
-Nozzle radius: 1.446461162018512
+Nozzle radius: 1.1668526600493843
 Throat area: 0.031415926535897934
 Chamber area: 0.08598900863665494
-Nozzle area: 6.572996894038938
-Expansion ratio: 209.22498932279439 (200)
+Nozzle area: 4.277420178769358
+Expansion ratio: 136.15451302643237 (130)
 Contraction ratio: 2.7371151552190627 (3)
-Nozzle length: 4.26872286882395
-Total length: 4.644528975338909
+Nozzle length: 3.381916828178005
+Total length: 3.757722934692965
 ```
 
 This was generated with the following input:
 ```
 designParams = {
     "Rt": 0.1,
-    "expR": 200,
+    "expR": 130,
     "conR": 3,
     "expA": 30,
     "exitA": 5,
