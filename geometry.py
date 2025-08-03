@@ -119,6 +119,8 @@ def getGeometry(designParams):
     expRactual = AnozActual / At
     Ltotal = Ln - ((xcon - Ltcon) - Lrem)
     actualParams = {
+        "injectorX": chamberXs[0],
+        "combEndX": chamberXs[-1],
         "expR": expRactual,
         "conR": conRactual,
         "Lnoz": Ln,
