@@ -134,6 +134,8 @@ def parseCEARUN():
                 blockLines.append(line)
         blocks.append(blockLines)
 
+    #amountOfBlocks = len(blocks)
+    #print("Number of blocks =", amountOfBlocks)
     #trim the blocks down
     trimmedBlocks = []
     for block in blocks:
@@ -199,15 +201,22 @@ def parseCEARUN():
         trimmedBlocks.append(trimmedBlock)
 
     arrays = []
+    #print()
+    #print("before transposition:")
     for block in trimmedBlocks:
         preparedBlock = parseBlock(block)
         array = np.asarray(preparedBlock)
+        sherpa = np.shape(array)
+        #print(sherpa)
         #array.transpose() no idea how the fuck I got away with transposing twice
         arrays.append(array)
-    
+
+    #print("after transposition:")
     arraysT = []
     for array in arrays:
         arrayT = array.transpose()
+        sherbert = np.shape(arrayT)
+        #print(sherbert)
         arraysT.append(arrayT)
     
     arraysTup = tuple(arraysT)
